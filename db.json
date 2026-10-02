@@ -7,6 +7,24 @@
       "cpf": "123.456.789-00",
       "data_nascimento": "2007-05-14",
       "endereco": "Rua das Flores, 123 - Pau dos Ferros/RN"
+    },
+    {
+      "nome": "Grazielly de Souza Ribeiro",
+      "email": "grazielly.ribeiro@escolar.ifrn.edu.br",
+      "cpf": "12345679891",
+      "data_nascimento": "2008-04-19",
+      "endereco": "Manoel Cajé, 78",
+      "id": 2
+    }
+  ],
+  "professor": [
+    {
+      "id": 1,
+      "nome": "Jefferson Queiroga",
+      "email": "jeffquei@gmail.com",
+      "cpf": "987.654.321-10",
+      "disciplina": "Programação para Internet",
+      "data_adminissao": "1999-01-01"
     }
   ]
 }
