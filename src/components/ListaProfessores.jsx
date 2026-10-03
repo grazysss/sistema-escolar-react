@@ -1,6 +1,6 @@
 import CardProfessor from "./CardProfessor";
 
-function ListaProfessor(props) {
+function ListaProfessores(props) {
   const cards = [];
 
   for (let i = 0; i < props.professor.length; i++) {

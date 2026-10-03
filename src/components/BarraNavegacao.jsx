@@ -7,7 +7,7 @@ function BarraNavegacao() {
       <Link to="/alunos">Alunos</Link>
       <Link to="/professores">Professores</Link>
       <Link to="/cadastroaluno">Cadastrar Alunos</Link>
-      <Link to="/cadastroprofessor">Cadastrar professores</Link>
+      <Link to="/cadastroprofessor">Cadastrar Professor</Link>
     </nav>
   );
 }

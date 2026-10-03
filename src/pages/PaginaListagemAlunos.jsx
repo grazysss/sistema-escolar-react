@@ -1,6 +1,6 @@
 import ListaAlunos from "../components/ListaAlunos";
 
-function PaginaListagem(props) {
+function PaginaListagemAlunos(props) {
   return (
     <div className="pagina-listagem">
       <h2>Alunos cadastrados</h2>
@@ -9,4 +9,4 @@ function PaginaListagem(props) {
   );
 }
 
-export default PaginaListagem;
+export default PaginaListagemAlunos;

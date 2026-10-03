@@ -4,8 +4,8 @@ import "./App.css";
 import BarraNavegacao from "./components/BarraNavegacao";
 import MensagemErro from "./components/MensagemErro";
 import PaginaInicial from "./pages/PaginaInicial";
-import PaginaListagemProfessor from "./pages/PaginaListagem";
-import PaginaListagem from "./pages/PaginaCadastroProfessor" // adicionado agora
+import PaginaListagemAlunos from "./pages/PaginaListagemAlunos";
+import PaginaListagemProfessores from "./pages/PaginaListagemProfessores" // adicionado agora
 import PaginaCadastro from "./pages/PaginaCadastro";
 import PaginaCadastroProfessor from "./pages/PaginaCadastroProfessor" // adicionado agora
 import { listarAlunos, criarAluno, excluirAluno } from "./services/alunoService";
@@ -95,10 +95,10 @@ function App() {
       <MensagemErro mensagem={erro} />
       <Routes>
         <Route path="/" element={<PaginaInicial />} />
-        <Route path="/alunos" element={<PaginaListagem alunos={alunos} aoExcluir={aoExcluir} />} />
-        <Route path="/professores" element={<PaginaListagemProfessor professores={professores} aoExcluir={aoExcluir} />} />
-        <Route path="/cadastraraluno" element={<PaginaCadastro aoSalvar={aoSalvar} />} />
-        <Route path="/cadastrarprofessor" element={<PaginaCadastroProfessor aoSalvar={aoSalvar} />} />
+        <Route path="/alunos" element={<PaginaListagemAlunos alunos={alunos} aoExcluir={aoExcluir} />} />
+        <Route path="/professores" element={<PaginaListagemProfessores professores={professores} aoExcluir={aoExcluir} />} />
+        <Route path="/cadastroaluno" element={<PaginaCadastro aoSalvar={aoSalvar} />} />
+        <Route path="/cadastroprofessor" element={<PaginaCadastroProfessor aoSalvar={aoSalvar} />} />
       </Routes>
     </div>
   );

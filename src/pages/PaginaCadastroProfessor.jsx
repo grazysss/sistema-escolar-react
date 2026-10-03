@@ -1,6 +1,6 @@
 import FormularioProfessor from "../components/FormularioProfessor";
 
-function PaginaCadastro(props) {
+function PaginaCadastroProfessor(props) {
   return (
     <div className="pagina-cadastro">
       <h2>Cadastrar professor</h2>
@@ -9,4 +9,4 @@ function PaginaCadastro(props) {
   );
 }
 
-export default PaginaCadastro;
+export default PaginaCadastroProfessor;
