@@ -49,6 +49,14 @@
       "disciplina": "Bater Cartinha",
       "dataadmissao": "2015-11-06",
       "id": 3
+    },
+    {
+      "nome": "Exemplis",
+      "email": "exemplinho@gmail.com",
+      "cpf": "123.456.789-10",
+      "disciplina": "Exemplificar I",
+      "dataadmissao": "0001-01-01",
+      "id": 4
     }
   ]
 }
