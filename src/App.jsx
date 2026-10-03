@@ -6,7 +6,7 @@ import MensagemErro from "./components/MensagemErro";
 import PaginaInicial from "./pages/PaginaInicial";
 import PaginaListagemAlunos from "./pages/PaginaListagemAlunos";
 import PaginaListagemProfessores from "./pages/PaginaListagemProfessores" // adicionado agora
-import PaginaCadastro from "./pages/PaginaCadastro";
+import PaginaCadastroAluno from "./pages/PaginaCadastroAluno";
 import PaginaCadastroProfessor from "./pages/PaginaCadastroProfessor" // adicionado agora
 import { listarAlunos, criarAluno, excluirAluno } from "./services/alunoService";
 import { listarProfessores, criarProfessor, excluirProfessor } from "./services/professorService" // importando funções de professorService
@@ -20,7 +20,7 @@ function App() {
 
   useEffect(function () {
     carregarAlunos();
-    carregarProfessor(); 
+    carregarProfessores(); 
   }, []);
 
   async function carregarAlunos() {
@@ -34,7 +34,7 @@ function App() {
   }
 
   // função de redenrizar a lista de professores
-  async function carregarProfessor() {
+  async function carregarProfessores() {
     try {
       const dados = await listarProfessores();
       setProfessores(dados);
@@ -74,7 +74,7 @@ function App() {
   async function aoExcluir(id) {
     try {
       await excluirProfessor(id)
-      carregarAlunos()
+      carregarProfessores()
     } catch (e) {
       setErro(mensagemConexao)
     }
@@ -97,7 +97,7 @@ function App() {
         <Route path="/" element={<PaginaInicial />} />
         <Route path="/alunos" element={<PaginaListagemAlunos alunos={alunos} aoExcluir={aoExcluir} />} />
         <Route path="/professores" element={<PaginaListagemProfessores professores={professores} aoExcluir={aoExcluir} />} />
-        <Route path="/cadastroaluno" element={<PaginaCadastro aoSalvar={aoSalvar} />} />
+        <Route path="/cadastroaluno" element={<PaginaCadastroAluno aoSalvar={aoSalvar} />} />
         <Route path="/cadastroprofessor" element={<PaginaCadastroProfessor aoSalvar={aoSalvar} />} />
       </Routes>
     </div>

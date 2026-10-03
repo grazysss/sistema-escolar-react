@@ -25,6 +25,14 @@
       "cpf": "987.654.321-10",
       "disciplina": "Programação para Internet",
       "data_adminissao": "1999-01-01"
+    },
+    {
+      "nome": "Nukidito",
+      "email": "djwaidjap@gmail.com",
+      "cpf": "12812892193",
+      "data_nascimento": "2008-04-19",
+      "endereco": "no 13",
+      "id": 2
     }
   ]
 }

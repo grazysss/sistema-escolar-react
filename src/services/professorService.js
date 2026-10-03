@@ -6,7 +6,7 @@ const api = axios.create({
 
 // Método para listar todos os professores - Get
 export async function listarProfessores() {
-  const resposta = await api.get("/professores");
+  const resposta = await api.get("/professor");
   return resposta.data;
 }
 

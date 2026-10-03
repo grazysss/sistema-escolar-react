@@ -1,6 +1,6 @@
 import FormularioAluno from "../components/FormularioAluno";
 
-function PaginaCadastro(props) {
+function PaginaCadastroAluno(props) {
   return (
     <div className="pagina-cadastro">
       <h2>Cadastrar aluno</h2>
@@ -9,4 +9,4 @@ function PaginaCadastro(props) {
   );
 }
 
-export default PaginaCadastro;
+export default PaginaCadastroAluno;
