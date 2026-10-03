@@ -17,7 +17,7 @@ function FormularioProfessor(props) {
       disciplina: disciplina,
       dataadmissao: dataadmissao
     };
-    props.aoSalvar(professores);
+    props.aoSalvar(professor);
     setNome("");
     setEmail("");
     setCpf("");

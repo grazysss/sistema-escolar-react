@@ -210,7 +210,7 @@ body {
   font-size: 0.9rem;
 }
 
-.card-aluno, .card-professor button {
+.card-aluno button {
   margin-top: 12px;
   background-color: #ffffff;
   color: #c62828;
@@ -221,7 +221,23 @@ body {
   cursor: pointer;
 }
 
-.card-aluno, .card-professor button:hover {
+.card-professor button {
+  margin-top: 12px;
+  background-color: #ffffff;
+  color: #c62828;
+  border: 1px solid #c62828;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.card-aluno button:hover {
+  background-color: #c62828;
+  color: #ffffff;
+}
+
+.card-professor button:hover {
   background-color: #c62828;
   color: #ffffff;
 }

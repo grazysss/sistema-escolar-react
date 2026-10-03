@@ -15,6 +15,14 @@
       "data_nascimento": "2008-04-19",
       "endereco": "Manoel Cajé, 78",
       "id": 2
+    },
+    {
+      "nome": "Nukidito",
+      "email": "djwaidjap@gmail.com",
+      "cpf": "12812892193",
+      "data_nascimento": "2008-04-19",
+      "endereco": "no 13",
+      "id": 3
     }
   ],
   "professor": [
@@ -27,12 +35,20 @@
       "data_adminissao": "1999-01-01"
     },
     {
-      "nome": "Nukidito",
-      "email": "djwaidjap@gmail.com",
-      "cpf": "12812892193",
-      "data_nascimento": "2008-04-19",
-      "endereco": "no 13",
+      "nome": "Alice Mat",
+      "email": "matelice@gmail.com",
+      "cpf": "12183915461",
+      "disciplina": "Organização",
+      "dataadmissao": "2008-01-16",
       "id": 2
+    },
+    {
+      "nome": "Pablo Áthico",
+      "email": "pacoaga2@gmail.com",
+      "cpf": "19211391032",
+      "disciplina": "Bater Cartinha",
+      "dataadmissao": "2015-11-06",
+      "id": 3
     }
   ]
 }
